@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculus for Kids</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1f1f1f;
+      color: #00bfff;
+      padding: 20px;
+      text-align: center;
+      font-size: 2.2em;
+      border-bottom: 2px solid #333;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #00bfff;
+    }
+    .example {
+      background-color: #1e1e1e;
+      border-left: 6px solid #00bfff;
+      padding: 15px;
+      margin: 20px 0;
+      font-size: 1.1em;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: '⭐';
+      margin-right: 10px;
+      color: #00bfff;
+    }
+    .game-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .game-buttons a {
+      background-color: #00bfff;
+      color: #121212;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+    }
+    .game-buttons a:hover {
+      background-color: #0099cc;
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: #00bfff;
+      text-align: center;
+      padding: 20px;
+      font-size: 1em;
+      border-top: 2px solid #333;
+    }
+    a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🧠 Calculus for Kids!
+  </header>
+  <section>
+    <h2>What is Calculus?</h2>
+    <p>Calculus is like magic math! It helps us understand how things change, like how fast you're running, or how high a rocket goes.</p>
+
+    <h2>Meet Derivatives!</h2>
+    <p>Derivatives tell us how fast something is changing. Imagine you're riding your bike. The derivative tells you how fast you're going every second!</p>
+    <div class="example">
+      🛴 If you go 10 meters in 1 second, your speed (derivative) is 10 meters/second!
+    </div>
+
+    <h2>Meet Integrals!</h2>
+    <p>Integrals are like adding up little pieces. They help us find how much space is under a curve or how far you've traveled.</p>
+    <div class="example">
+      🍰 Imagine you eat a cake slice by slice. An integral adds all the slices to find out how much cake you've eaten!
+    </div>
+
+    <h2>Why It’s Cool</h2>
+    <ul>
+      <li>🚗 Helps understand car speed</li>
+      <li>🚀 Explains rocket launch height</li>
+      <li>🎮 Even helps in video games physics!</li>
+    </ul>
+
+    <div class="game-buttons">
+      <a href="games/derivative-race/index.html">🚴 Derivative Race Game</a>
+      <a href="games/integral-builder/index.html">🍰 Integral Builder Game</a>
+      <a href="games/slope-matcher/index.html">📈 Slope Matcher Challenge</a>
+    </div>
+  </section>
+  <footer>
+    Made with ❤️ for curious young minds | <a href="https://3272010.xyz">3272010.xyz</a>
+  </footer>
+</body>
+</html>
